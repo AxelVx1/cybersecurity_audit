@@ -2,7 +2,7 @@
 Internal Audit for Botium Toys
 
 # Introduction:
-As part of my cybersecurity portfolio and the Google Cybersecurity Professional Certificate on Coursera's "Play It Safe: Manage Security Risks" course, I conducted an internal security audit assessment for Botium Toys, a fictitious toy company.
+As part of my Google Cybersecurity Professional Certificate, I conducted an internal security audit assessment for Botium Toys, a fictitious toy company.
 
 The purpose of this audit is to evaluate Botium Toys’ security program, ensuring that current business practices are aligned with industry standards and best practices. The audit aims to identify vulnerabilities and provide mitigation recommendations. Additionally, the audit develops a comprehensive strategy to enhance the organization's overall security posture.
 
