@@ -1,6 +1,21 @@
 # cybersecurity_audit_writeup
 Internal Audit for Botium Toys
 
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Scenario](#scenario)
+3. [Scope](#scope)
+4. [Goal](#goal)
+5. [Current Assets](#current-assets)
+6. [Risk Assessment](#risk-assessment)
+7. [Controls Checklist](#controls-checklist)
+8. [Compliance Checklist](#compliance-checklist)
+    - [Payment Card Industry Data Security Standard (PCI DSS)](#payment-card-industry-data-security-standard-pci-dss)
+    - [General Data Protection Regulation (GDPR)](#general-data-protection-regulation-gdpr)
+    - [System and Organizations Controls (SOC type 1, SOC type 2)](#system-and-organizations-controls-soc-type-1-soc-type-2)
+9. [Recommendations for Improving Botium Toys’ Security Posture](#recommendations-for-improving-botium-toys-security-posture)
+10. [Compliance Specific Recommendations](#compliance-specific-recommendations)
+
 # Introduction:
 As part of my Google Cybersecurity Professional Certificate, I conducted an internal security audit assessment for Botium Toys, a fictitious toy company.
 
