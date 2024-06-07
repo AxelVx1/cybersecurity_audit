@@ -59,7 +59,7 @@ The potential impact from the loss of an asset is rated as medium, because the I
 - While legacy systems are monitored and maintained, there is no regular schedule in place for these tasks and intervention methods are unclear.
 - The store’s physical location, which includes Botium Toys’ main offices, store front, and warehouse of products, has sufficient locks, up-to-date closed-circuit television (CCTV) surveillance, as well as functioning fire detection and prevention systems.
 
-##Controls Checklist:##
+# Controls Checklist:
 
 |   Yes    |    No    |  Control |
 |----------|----------|----------|
@@ -77,3 +77,86 @@ The potential impact from the loss of an asset is rated as medium, because the I
 | x        |          | Locks (offices, storefront, warehouse)  |
 | x        |          | Closed-circuit television (CCTV) surveillance |
 | x        |          | Fire detection/prevention (fire alarm, sprinkler system, etc.) |
+
+# Compliance Checklist:
+
+**Payment Card Industry Data Security Standard (PCI DSS):**
+
+|   Yes    |    No    |  Control |
+|----------|----------|----------|
+|          | x        | Only authorized users have access to customers’ credit card information.   |
+|          | x        | Credit card information is stored, accepted, processed, and transmitted internally, in a secure environment.   |
+|          | x        | Implement data encryption procedures to better secure credit card transaction touchpoints and data.  |
+|          | x        | Adopt secure password management policies. |
+
+**General Data Protection Regulation (GDPR):**
+
+|   Yes    |    No    |  Control |
+|----------|----------|----------|
+|          | x        | E.U. customers’ data is kept private/secured.  |
+|    x     |          | There is a plan in place to notify E.U. customers within 72 hours if their data is compromised/there is a breach.  |
+|          | x        | Ensure data is properly classified and inventoried.  |
+|    x     |          | Enforce privacy policies, procedures, and processes to properly document and maintain data. |
+
+**System and Organizations Controls (SOC type 1, SOC type 2):**
+
+|   Yes    |    No    |  Control |
+|----------|----------|----------|
+|          | x        | User access policies are established.  |
+|          | x        | Sensitive data (PII/SPII) is confidential/private.  |
+|    x     |          | Data integrity ensures the data is consistent, complete, accurate, and has been validated.  |
+|          | x        | Data is available to individuals authorized to access it.  |
+
+# Recommendations for Improving Botium Toys’ Security Posture:
+
+To reduce risks to assets and improve Botium Toys’ security posture, several controls and compliance measures need to be implemented or enhanced. The following recommendations should be communicated to stakeholders:
+
+1. **Encryption of Sensitive Data**
+   - **Implementation**: Implement robust encryption protocols for all sensitive data, both retained and moved.
+   - **Impact**: Protects against data breaches and unauthorized access.
+
+2. **Intrusion Detection System (IDS)**
+   - **Implementation**: Implement an IDS to monitor network traffic for suspicious activities and potential security breaches.
+   - **Impact**: Allows the ability to detect and respond to threats in real-time.
+
+3. **Disaster Recovery and Backups**
+   - **Implementation**: Develop and test a comprehensive disaster recovery plan while maintaining regular, encrypted backups and ensuring they are stored correctly.
+   - **Impact**: Minimizes downtime and data loss during and after an incident.
+
+4. **Legacy System Policies**
+   - **Implementation**: Establish and enforce policies for managing and securing legacy systems, including regular updates and destruction plans for outdated technology.
+   - **Impact**: Reduces vulnerabilities associated with unsupported and outdated systems.
+
+5. **Centralized Password Management/Password Policies**
+   - **Implementation**: Utilize a centralized password management system to simplify user experience and enforce improved password complexity requirements.
+   - **Impact**: Reduces the likelihood of password-related breaches by ensuring strong, frequently updated passwords.
+
+6. **Least Privilege**
+   - **Implementation**: Enforce the principle of least privilege to ensure that users have only the minimum access necessary to perform their job functions.
+   - **Impact**: Minimizes potential damage from compromised accounts and improves overall security posture.
+
+7. **Separation of Duties**
+   - **Implementation**: Implement separation of duties to prevent conflicts of interest and reduce the risk of insider threats.
+   - **Impact**: Ensures accountability and enhances internal controls.
+
+## Compliance Specific Recommendations:
+
+To adhere to U.S. and international regulations, Botium Toys must implement the following compliance measures:
+
+1. **Proper Encryption**
+   - **Requirement**: Ensure all sensitive data is encrypted in compliance with standards such as GDPR, PCI DSS, and SOC type 1/type 2.
+
+2. **Separation of Duties**
+   - **Requirement**: Implement a clear separation of duties to comply with regulatory requirements and reduce the risk of fraud and error.
+
+3. **Principle of Least Privilege**
+   - **Requirement**: Enforce the principle of least privilege to comply with various regulations and best practices.
+
+4. **Asset Identification and Classification**
+   - **Requirement**: Properly identify and classify all assets to determine appropriate controls and protections.
+
+By implementing these controls and compliance measures, and holding regular security training for employees, Botium Toys will significantly enhance its security posture, reduce risks to its assets, and ensure adherence to relevant U.S. and international regulations.
+
+
+
+
