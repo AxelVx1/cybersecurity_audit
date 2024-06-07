@@ -59,19 +59,21 @@ The potential impact from the loss of an asset is rated as medium, because the I
 - While legacy systems are monitored and maintained, there is no regular schedule in place for these tasks and intervention methods are unclear.
 - The store’s physical location, which includes Botium Toys’ main offices, store front, and warehouse of products, has sufficient locks, up-to-date closed-circuit television (CCTV) surveillance, as well as functioning fire detection and prevention systems.
 
+##Controls Checklist:##
+
 |   Yes    |    No    |  Control |
 |----------|----------|----------|
-| Row 1    | Data 1   | Least Privilege  |
-| Row 2    | Data 2   | Disaster recovery plans   |
-| Row 3    | Data 3   | Password policies  |
-| Row 4    | Data 4   | Separation of duties |
-| Row 5    | Data 5   | Firewall  |
-| Row 6    | Data 6   | Intrusion detection system (IDS)  |
-| Row 7    | Data 7   | Backups   |
-| Row 8    | Data 8   | Antivirus Software   |
-| Row 9    | Data 9   | Manual monitoring, maintenance, and intervention for legacy systems  |
-| Row 10   | Data 10  | Encryption  |
-| Row 11   | Data 11  | Password management system  |
-| Row 12   | Data 12  | Locks (offices, storefront, warehouse)  |
-| Row 13   | Data 13  | Closed-circuit television (CCTV) surveillance |
-| Row 14   | Data 14  | Fire detection/prevention (fire alarm, sprinkler system, etc.) |
+|          | x        | Least Privilege  |
+|          | x        | Disaster recovery plans   |
+|          | x        | Password policies  |
+|          | x        | Separation of duties |
+| x        |          | Firewall  |
+|          | x        | Intrusion detection system (IDS)  |
+|          | x        | Backups   |
+| x        |          | Antivirus Software   |
+|          | x        | Manual monitoring, maintenance, and intervention for legacy systems  |
+|          | x        | Encryption  |
+|          | x        | Password management system  |
+| x        |          | Locks (offices, storefront, warehouse)  |
+| x        |          | Closed-circuit television (CCTV) surveillance |
+| x        |          | Fire detection/prevention (fire alarm, sprinkler system, etc.) |
